@@ -56,7 +56,7 @@ Also bind `class' to ((class color) (min-colors 89))."
                             :foreground ,holtorf-fg
                             :background ,holtorf-grey
                             :width condensed)))
-   `(mode-line-buffer-id ((,class (:weight bold :background ,holtorf-box))))
+   `(mode-line-buffer-id ((,class (:weight bold :foreground ,holtorf-fg))))
    `(highlight ((,class (:background ,holtorf-highlight))))
    `(region ((,class (:background ,holtorf-region))))
 
