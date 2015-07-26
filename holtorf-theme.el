@@ -1,4 +1,4 @@
-;;; holtorf-theme.el --- custom light color theme for Emacs24
+;;; holtorf-theme.el --- custom light theme for Emacs24
 
 ;; Copyright (C) 2015 Sascha Raabe
 
@@ -56,7 +56,7 @@ Also bind `class' to ((class color) (min-colors 89))."
                             :foreground ,holtorf-fg
                             :background ,holtorf-grey
                             :width condensed)))
-   `(mode-line-buffer-id ((,class (:weight bold :foreground ,holtorf-fg))))
+   `(mode-line-buffer-id ((,class (:weight bold :background ,holtorf-box))))
    `(highlight ((,class (:background ,holtorf-highlight))))
    `(region ((,class (:background ,holtorf-region))))
 
